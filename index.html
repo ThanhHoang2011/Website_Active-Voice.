@@ -12,6 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Fix for GitHub Pages when deployed from root / folder
+      // Automatically routes to /docs/ where the production build is ready
+      if (window.location.hostname.endsWith('github.io') && !window.location.pathname.includes('/docs')) {
+        var base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
+        window.location.replace(base + 'docs/');
+      }
+    </script>
   </head>
   <body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white overflow-hidden">
     <div id="root"></div>
