@@ -1,0 +1,6 @@
+{
+  "name": "Active Voice Arcade",
+  "description": "Master when to avoid passive voice through Project Zomboid style 10-wave Zombie Gunner with boss fights, and Classroom Tycoon builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
